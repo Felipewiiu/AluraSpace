@@ -1,0 +1,14 @@
+Simple React Snippets
+
+--É a maneira de ter mais produtividade pois essa ferramenta permite utilizar atalhos para estruturação de códigos
+
+-- endereço da documentação : https://github.com/burkeholland/simple-react-snippets
+
+
+-- @import-normalize; --> funciona como o reset.css e é preciso colocar uma regra dentro da pasta criada .vscode
+
+{
+    "scss.lint.unknownAtRules" : "ignore"
+}
+
+-- @font-face --> serve para importar fontes locais
