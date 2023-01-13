@@ -12,3 +12,5 @@ Simple React Snippets
 }
 
 -- @font-face --> serve para importar fontes locais
+
+-- Uma das maneiras de se importar muitas fotos é 

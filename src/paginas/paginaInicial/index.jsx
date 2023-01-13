@@ -2,6 +2,7 @@ import {Banner}  from "../../componentes/Banner";
 import Cabecalho from "../../componentes/cabecalho";
 import Menu from "../../componentes/Menu";
 import styles from '../../componentes/Banner/paginaInicial.module.scss'
+import Galeria from "../../componentes/Galeria";
 
 
 
@@ -17,6 +18,9 @@ export default function PaginaInicial(){
                 </section>
 
             </main>
+            <div>
+                <Galeria />
+            </div>
         
         </>
     )
