@@ -14,3 +14,9 @@ Simple React Snippets
 -- @font-face --> serve para importar fontes locais
 
 -- Uma das maneiras de se importar muitas fotos é 
+
+
+-- Para se importar muitas fotos:
+
+O ideal é criar um arquivo .json e criar um array de objetos contendo os caminhos das imagens , depois importar esse arquivo
+e fazer um map nesse array passando as propriedades do objeto.
