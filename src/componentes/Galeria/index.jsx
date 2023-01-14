@@ -10,7 +10,7 @@ export default function Galeria() {
         <section className={styles.galeria}>
             <h2>Navegue pela galeria</h2>
             <Tags/>
-            <ul className={styles.galeria__lista}>
+            <ul className={styles.galeria__cards}>
                 {fotos.map(foto =>{
                     return(
                         <li key={fotos.id} className={styles.galeria__card}>

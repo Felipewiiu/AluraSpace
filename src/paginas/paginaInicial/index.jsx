@@ -17,8 +17,8 @@ export default function PaginaInicial(){
                    <Banner/>
                 </section>
 
-            </main>
-            <div>
+            </main >
+            <div className={styles.galeria}>
                 <Galeria />
             </div>
         
