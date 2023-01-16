@@ -25,4 +25,8 @@ e fazer um map nesse array passando as propriedades do objeto.
 
 -- Dá para importar um svg como um componente react 
 
--- Pesquisar sobre o jsconfig.json
+-- Pesquisar sobre o jsconfig.json --> com essa configuração a importação do componente se da pela pasta src
+   Sem precisar de voltar as pastas na hora da importação.
+
+--  absolute imports (importações absolutas) -- > é o padrão que preciso adotar para gerenciar as importações,
+    [ https://javascript.plainenglish.io/why-and-how-to-use-absolute-imports-in-react-d5b52f24d53c ]

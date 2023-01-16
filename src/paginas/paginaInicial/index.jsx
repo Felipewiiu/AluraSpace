@@ -1,10 +1,10 @@
-import { Banner } from "../../componentes/Banner";
-import styles from '../../componentes/Banner/paginaInicial.module.scss'
+import { Banner } from "componentes/Banner";
+import styles from 'componentes/Banner/paginaInicial.module.scss'
 
-import Cabecalho from "../../componentes/cabecalho";
-import Menu from "../../componentes/Menu";
-import Galeria from "../../componentes/Galeria";
-import Populares from "../../componentes/populares";
+import Cabecalho from "componentes/cabecalho";
+import Menu from "componentes/Menu";
+import Galeria from "componentes/Galeria";
+import Populares from "componentes/populares";
 
 
 
