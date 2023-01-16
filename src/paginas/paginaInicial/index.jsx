@@ -1,27 +1,31 @@
-import {Banner}  from "../../componentes/Banner";
+import { Banner } from "../../componentes/Banner";
+import styles from '../../componentes/Banner/paginaInicial.module.scss'
+
 import Cabecalho from "../../componentes/cabecalho";
 import Menu from "../../componentes/Menu";
-import styles from '../../componentes/Banner/paginaInicial.module.scss'
 import Galeria from "../../componentes/Galeria";
+import Populares from "../../componentes/populares";
 
 
 
 
-export default function PaginaInicial(){
-    return(
+export default function PaginaInicial() {
+    return (
         <>
-            <Cabecalho/>
+            <Cabecalho />
             <main>
                 <section className={styles.principal}>
                     <Menu />
-                   <Banner/>
+                    <Banner />
                 </section>
+                <div className={styles.galeria}>
+                    <Galeria />
+                    <Populares />
+                </div>
 
             </main >
-            <div className={styles.galeria}>
-                <Galeria />
-            </div>
-        
+
+
         </>
     )
 }

@@ -20,3 +20,9 @@ Simple React Snippets
 
 O ideal é criar um arquivo .json e criar um array de objetos contendo os caminhos das imagens , depois importar esse arquivo
 e fazer um map nesse array passando as propriedades do objeto.
+
+-- PESQUISAR SOBRE WEBPACK
+
+-- Dá para importar um svg como um componente react 
+
+-- Pesquisar sobre o jsconfig.json
