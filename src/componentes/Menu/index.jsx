@@ -8,9 +8,9 @@ export default function Menu() {
             <ul className={styles.menu__lista}>
                 {icones.map(icone => {
                     return (
-                        <li className={styles.menu__item}>
+                        <li key={icone.id} className={styles.menu__item}>
                             <img src={icone.imagem} alt="" />
-                            <a href="/">Início</a>
+                            <a href="/">{icone.titulo}</a>
                         </li>
                     )
                 })}

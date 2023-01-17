@@ -6,13 +6,13 @@
         
     },
     {
-        "titulo": "mais_curtidas",
+        "titulo": "mais curtidas",
         "imagem": "/assets/imagens/icones/mais-curtidas-inativo.png",
         "id" : "2"
         
     },
     {
-        "titulo": "mais_visitadas",
+        "titulo": "mais visitadas",
         "imagem": "/assets/imagens/icones/mais-vistas-inativo.png",
         "id" : "3"
         
@@ -24,9 +24,9 @@
         
     },
     {
-        "titulo": "surpreenda_me",
+        "titulo": "surpreenda me",
         "imagem": "/assets/imagens/icones/surpreenda-me-inativo.png",
-        "id" : "4"
+        "id" : "5"
         
     }
 ]
